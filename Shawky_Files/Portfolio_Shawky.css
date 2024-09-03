@@ -142,7 +142,7 @@ br {
 .social-icons a {
   color: white;
   font-size: 2em;
-  padding-right: 33px;
+  padding: 0px 15px;
 }
 
 .social-icons a:nth-child(1):hover {
@@ -473,18 +473,18 @@ footer .social-icons a:nth-child(5):hover {
   }
 
   header {
-    padding: 10px 10px;
+    padding: 10px 5px;
   }
 
   section {
     margin-bottom: 0px;
-    padding: 80px 60px;
+    padding: 80px 50px;
   }
 
   .main {
     text-align: center;
     background-position: top left;
-    height: calc(100vh - 63px);
+/*     height: calc(100vh - 63px); */
     overflow: hidden;
   }
 
@@ -505,9 +505,9 @@ footer .social-icons a:nth-child(5):hover {
     margin-bottom: 30px;
   }
 
-  .main .social-icons {
+/*   .main .social-icons {
     padding-left: 35px;
-  }
+  } */
 }
 
 @media (max-width:300px) {
@@ -516,7 +516,7 @@ footer .social-icons a:nth-child(5):hover {
   }
 
   header {
-    padding: 10px 10px;
+    padding: 10px 5px;
   }
 
   .main {
