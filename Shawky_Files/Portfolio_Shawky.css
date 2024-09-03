@@ -473,7 +473,7 @@ footer .social-icons a:nth-child(5):hover {
   }
 
   header {
-    padding: 10px 50px;
+    padding: 10px 10px;
   }
 
   section {
@@ -511,5 +511,10 @@ footer .social-icons a:nth-child(5):hover {
 @media (max-width:300px) {
   body {
     font-size: 10px;
+  }
+
+  .main {
+    height: 100vh;
+    overflow: hidden;
   }
 }
