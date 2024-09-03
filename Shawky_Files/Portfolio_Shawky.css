@@ -478,12 +478,14 @@ footer .social-icons a:nth-child(5):hover {
 
   section {
     margin-bottom: 0px;
-    padding: 0;
+    padding: 80px 100px;
   }
 
   .main {
     text-align: center;
     background-position: top left;
+    height: calc(100vh - 63px);
+    overflow: hidden;
   }
 
   .main-content h2 {
@@ -511,6 +513,10 @@ footer .social-icons a:nth-child(5):hover {
 @media (max-width:300px) {
   body {
     font-size: 10px;
+  }
+
+  header {
+    padding: 10px 10px;
   }
 
   .main {
